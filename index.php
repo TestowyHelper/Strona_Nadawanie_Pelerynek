@@ -23,8 +23,8 @@ $n = $_POST['nick'];
 $i = $_POST['id'];
 
 
-        $capes = '/cape/'.$n.'.png';
-        $list = '/getcape/'.$i.'.png';
+        $capes = 'C:/xampp/htdocs/cape/'.$n.'.png';
+        $list = 'C:/xampp/htdocs/getcape/'.$i.'.png';
                 if (!copy($list, $capes)) {
                         echo "blad";
                 }
